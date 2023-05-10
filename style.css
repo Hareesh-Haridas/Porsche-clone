@@ -1,0 +1,358 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    background-color: white;
+}
+.header{
+    background-color: black;
+    height: 659px;
+    width: 100%;
+}
+nav{
+    background-color: #ffffff;
+    height: 82px;
+    width: 100%;
+    display: flex;
+}
+.logo{
+    border: 1px solid gainsboro;
+    width: 110px;
+    margin-top: -1px;
+    margin-left: 144px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.menu{
+    font-size: 19px;
+    font-weight: lighter;
+    padding-left: 987px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.menu:hover{
+    color: red;
+}
+.main-wallpaper{
+    width: 100%;
+    height: 577px
+
+
+}
+.main-wallpaper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#porsche-india{
+    margin-top: -136px;
+    margin-left: 129px;
+    color: white;
+    font-size: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#porsche-india:hover{
+    color: red;
+}
+#network{
+    margin-top: -28px;
+    margin-left: 129px;
+    color: white;
+    font-size: 27px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#network:hover{
+    color: red;
+}
+.models{
+    
+    width: 100%;
+    height: 86px;
+}
+#model{
+    padding-left: 133px;
+    font-size: 32px;
+}
+.grid{
+    
+    height: 368px;
+    display: flex;
+}
+.seven{
+    
+    width: 516px;
+    height: 361px;
+}
+.seven img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#img-1{
+    margin-top: -347px;
+    margin-left: 7px;
+    color: white;
+    font-size: 44px;
+}
+#img-1-rs{
+    margin-left: 30px;
+    color: white;
+    font-size: 25px;
+}
+#buid-1{
+    margin-top: 147px;
+    margin-left: 126px;
+}
+.nine{
+    
+    width: 516px;
+    height: 361px;
+}
+.nine img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#img-2{
+    margin-top: -336px;
+    color: white;
+    margin-left: 33px;
+    font-size: 42px;
+    font-weight: bold;
+}
+.tycan{
+    
+    width: 516px;
+    height: 361px;
+}
+.tycan img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#img-3{
+    margin-bottom: 26px;
+    margin-top: -327px;
+    color: white;
+    margin-left: 48px;
+    font-size: 35px;
+}
+.panamera{
+    align-content: baseline;
+    width: 516px;
+    height: 361px;
+    
+}
+.panamera img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#img-4{
+    margin-top: -313px;
+    color: white;
+    margin-left: 34px;
+    font-size: 26px;
+}
+.near-you{
+    display: flex;
+    margin-top: 186px;
+    height: 323px;
+    width: 100%;
+  
+    
+}
+.near-you h1{
+    padding-left: 120px;
+    padding-top: 46px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.car-1{
+    
+    height: 241px;
+    width: 412px;
+    margin-left: 122px;
+}
+.car-1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.car-2{
+    
+    padding-left: 10px;
+    height: 241px;
+    width: 412px;
+}
+.car-2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#find{
+    margin-left: 114px;
+    font-size: 47px;
+    margin-top: 20px;
+}
+.car-3{
+    
+    padding-left: 10px;
+    height: 241px;
+    width: 412px;
+}
+.car-3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+#shopping{
+    padding-left: 143px;
+    margin-top: 69px;
+    font-size: 54px;
+    margin-left: -33px;
+}
+.shopping-tools{
+    
+    height: 315px;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 77px;
+    display: flex;
+}
+.comp{
+    
+   
+    height: 314px;
+    width: 523px;
+    
+    
+}
+.comp img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#comp{
+    margin-top: -50px;
+    margin-left: 46px;
+    color: white;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#comp:hover{
+    color: red;
+}
+.locate-a-dealer{
+    
+    height: 314px;
+    width: 281px;
+}
+.locate-a-dealer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#loc{
+    margin-top: -50px;
+    margin-left: 46px;
+    color: white;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#loc:hover{
+    color: red;
+}
+.porsche-lifestyle{
+   
+    height: 314px;
+    width: 281px;
+}
+.porsche-lifestyle img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#life{
+    margin-top: -50px;
+    margin-left: 46px;
+    color: white;
+    font-weight: lighter;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+#life:hover{
+    color: red;
+}
+.contact-us{
+   
+    height: 314px;
+    width: 281px;
+}
+.contact-us img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#cont{
+    margin-top: -50px;
+    margin-left: 46px;
+    color: white;
+    font-weight: lighter;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#cont:hover{
+    color: red;
+}
+hr{
+    margin-top: 109px;
+    margin-left: 83px;
+    margin-right: 78px;
+}
+.sub-footer{
+    display: flex;
+   
+    width: 100%;
+    height: 341px;
+    margin-top: 41px;
+}
+.build-find{
+    margin-left: 170px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.online-services{
+    margin-left: 90px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.behind-the-scenes{
+    margin-left: 80px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.Porsche-company{
+    margin-left: 79px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+#f{
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+#f:hover{
+    color: red;
+
+}
